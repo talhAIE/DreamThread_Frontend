@@ -1,0 +1,967 @@
+{
+  "fileKey": "lYAOmyExaONHYen7pw5EZW",
+  "referenceViewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "screens": [
+    {
+      "name": "welcome",
+      "title": "Welcome / Sign in",
+      "nodeId": "23:2508",
+      "implemented": true,
+      "reference": "references/welcome.png",
+      "assets": {
+        "imgDivIForest": "assets/figma/65e27.png",
+        "imgDivIOcean": "assets/figma/93ad7.png",
+        "imgDivIMan": "assets/figma/99bae.png",
+        "imgDivIDoor": "assets/figma/4a7c5.png",
+        "imgFrame": "assets/figma/ef6b9.svg",
+        "imgDivMini": "assets/figma/812e5.svg"
+      },
+      "slots": [
+        {
+          "nodeId": "23:2511",
+          "variable": "imgFrame",
+          "path": "assets/figma/ef6b9.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame} />"
+        },
+        {
+          "nodeId": "23:2516",
+          "variable": "imgDivMini",
+          "path": "assets/figma/812e5.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgDivMini} />"
+        },
+        {
+          "nodeId": "23:2524",
+          "variable": "imgDivIForest",
+          "path": "assets/figma/65e27.png",
+          "referenceGeometry": "<div className=\"bg-size-[56.5957435965538px_55.999998927116394px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/blue\\/36,#3a4580)] border-solid relative rounded-[var(--corner-radius\\/30,30px)] shrink-0 size-[60px]\" data-node-id=\"23:2524\" style={{ backgroundImage: `url(\"${imgDivIForest}\")` }} data-name=\"div.i-forest\" />"
+        },
+        {
+          "nodeId": "23:2526",
+          "variable": "imgDivIOcean",
+          "path": "assets/figma/93ad7.png",
+          "referenceGeometry": "<div className=\"bg-size-[192.09302869439125px_60.000001698732376px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/blue\\/36,#3a4580)] border-solid relative rounded-[var(--corner-radius\\/32,32px)] shrink-0 size-[64px]\" data-node-id=\"23:2526\" style={{ backgroundImage: `url(\"${imgDivIOcean}\")` }} data-name=\"div.i-ocean\" />"
+        },
+        {
+          "nodeId": "23:2528",
+          "variable": "imgDivIMan",
+          "path": "assets/figma/99bae.png",
+          "referenceGeometry": "<div className=\"bg-size-[196.7441916167736px_60.000001698732376px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/blue\\/36,#3a4580)] border-solid relative rounded-[var(--corner-radius\\/32,32px)] shrink-0 size-[64px]\" data-node-id=\"23:2528\" style={{ backgroundImage: `url(\"${imgDivIMan}\")` }} data-name=\"div.i-man\" />"
+        },
+        {
+          "nodeId": "23:2530",
+          "variable": "imgDivIDoor",
+          "path": "assets/figma/4a7c5.png",
+          "referenceGeometry": "<div className=\"bg-size-[61.5px_60px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/blue\\/36,#3a4580)] border-solid relative rounded-[var(--corner-radius\\/32,32px)] shrink-0 size-[64px]\" data-node-id=\"23:2530\" style={{ backgroundImage: `url(\"${imgDivIDoor}\")` }} data-name=\"div.i-door\" />"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "title": "Home",
+      "nodeId": "23:2562",
+      "implemented": true,
+      "reference": "references/home.png",
+      "assets": {
+        "imgDivIOcean": "assets/figma/93ad7.png",
+        "imgDivIMan": "assets/figma/99bae.png",
+        "imgDivIHouse": "assets/figma/5c7ec.png",
+        "imgDivIForest": "assets/figma/65e27.png",
+        "imgDivIDoor": "assets/figma/4a7c5.png",
+        "imgFrame": "assets/figma/ef6b9.svg",
+        "imgFrame1": "assets/figma/95453.svg",
+        "imgFrame2": "assets/figma/6a614.svg",
+        "imgFrame3": "assets/figma/95736.svg",
+        "imgFrame4": "assets/figma/566a0.svg",
+        "imgFrame5": "assets/figma/e9aa0.svg",
+        "imgFrame6": "assets/figma/4a9db.svg",
+        "imgFrame7": "assets/figma/5d171.svg",
+        "imgFrame8": "assets/figma/c50b4.svg",
+        "imgFrame9": "assets/figma/91992.svg",
+        "imgFrame10": "assets/figma/7c658.svg"
+      },
+      "slots": [
+        {
+          "nodeId": "23:2565",
+          "variable": "imgFrame",
+          "path": "assets/figma/ef6b9.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame} />"
+        },
+        {
+          "nodeId": "23:2569",
+          "variable": "imgFrame1",
+          "path": "assets/figma/95453.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame1} />"
+        },
+        {
+          "nodeId": "23:2573",
+          "variable": "imgFrame2",
+          "path": "assets/figma/6a614.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame2} />"
+        },
+        {
+          "nodeId": "23:2577",
+          "variable": "imgFrame3",
+          "path": "assets/figma/95736.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame3} />"
+        },
+        {
+          "nodeId": "23:2584",
+          "variable": "imgFrame4",
+          "path": "assets/figma/566a0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame4} />"
+        },
+        {
+          "nodeId": "23:2590",
+          "variable": "imgFrame5",
+          "path": "assets/figma/e9aa0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame5} />"
+        },
+        {
+          "nodeId": "23:2602",
+          "variable": "imgFrame6",
+          "path": "assets/figma/4a9db.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame6} />"
+        },
+        {
+          "nodeId": "23:2615",
+          "variable": "imgFrame7",
+          "path": "assets/figma/5d171.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame7} />"
+        },
+        {
+          "nodeId": "23:2621",
+          "variable": "imgFrame8",
+          "path": "assets/figma/c50b4.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame8} />"
+        },
+        {
+          "nodeId": "23:2627",
+          "variable": "imgFrame9",
+          "path": "assets/figma/91992.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame9} />"
+        },
+        {
+          "nodeId": "23:2634",
+          "variable": "imgDivIOcean",
+          "path": "assets/figma/93ad7.png",
+          "referenceGeometry": "<div className=\"bg-size-[166.4806256890297px_52.0000017285347px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/blue\\/36,#3a4580)] border-solid mb-[-0.2px] relative rounded-[var(--corner-radius\\/28,28px)] shrink-0 size-[56px]\" data-node-id=\"23:2634\" style={{ backgroundImage: `url(\"${imgDivIOcean}\")` }} data-name=\"div.i-ocean\" />"
+        },
+        {
+          "nodeId": "23:2640",
+          "variable": "imgDivIMan",
+          "path": "assets/figma/99bae.png",
+          "referenceGeometry": "<div className=\"bg-size-[170.51163357496262px_52.0000017285347px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/blue\\/36,#3a4580)] border-solid mb-[-0.2px] relative rounded-[var(--corner-radius\\/28,28px)] shrink-0 size-[56px]\" data-node-id=\"23:2640\" style={{ backgroundImage: `url(\"${imgDivIMan}\")` }} data-name=\"div.i-man\" />"
+        },
+        {
+          "nodeId": "23:2646",
+          "variable": "imgDivIHouse",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<div className=\"bg-size-[215.5969045162201px_68.00000166893005px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/violet\\/77,#ae95f6)] border-solid content-stretch flex flex-col items-center mb-[-2px] relative rounded-[var(--corner-radius\\/36,36px)] shrink-0 size-[76px]\" data-node-id=\"23:2646\" style={{ backgroundImage: `url(\"${imgDivIHouse}\")` }} data-name=\"div.i-house\">"
+        },
+        {
+          "nodeId": "23:2653",
+          "variable": "imgDivIForest",
+          "path": "assets/figma/65e27.png",
+          "referenceGeometry": "<div className=\"bg-size-[52.553190886974335px_51.99999940395355px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/blue\\/36,#3a4580)] border-solid mb-[-0.2px] relative rounded-[var(--corner-radius\\/28,28px)] shrink-0 size-[56px]\" data-node-id=\"23:2653\" style={{ backgroundImage: `url(\"${imgDivIForest}\")` }} data-name=\"div.i-forest\" />"
+        },
+        {
+          "nodeId": "23:2659",
+          "variable": "imgDivIDoor",
+          "path": "assets/figma/4a7c5.png",
+          "referenceGeometry": "<div className=\"bg-size-[53.29999804496765px_51.99999809265137px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/blue\\/36,#3a4580)] border-solid mb-[-0.2px] relative rounded-[var(--corner-radius\\/28,28px)] shrink-0 size-[56px]\" data-node-id=\"23:2659\" style={{ backgroundImage: `url(\"${imgDivIDoor}\")` }} data-name=\"div.i-door\" />"
+        },
+        {
+          "nodeId": "23:2671",
+          "variable": "imgDivIHouse",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-108.53%] max-w-none top-0 w-[317.05%]\" src={imgDivIHouse} />"
+        },
+        {
+          "nodeId": "23:2675",
+          "variable": "imgDivIDoor",
+          "path": "assets/figma/4a7c5.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-1.25%] max-w-none top-0 w-[102.5%]\" src={imgDivIDoor} />"
+        },
+        {
+          "nodeId": "23:2679",
+          "variable": "imgDivIMan",
+          "path": "assets/figma/99bae.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-113.95%] max-w-none top-0 w-[327.91%]\" src={imgDivIMan} />"
+        },
+        {
+          "nodeId": "23:2684",
+          "variable": "imgFrame10",
+          "path": "assets/figma/7c658.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame10} />"
+        },
+        {
+          "nodeId": "23:2693",
+          "variable": "imgDivIHouse",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[104.18%] left-0 max-w-none top-[-2.09%] w-full\" src={imgDivIHouse} />"
+        },
+        {
+          "nodeId": "23:2707",
+          "variable": "imgDivIOcean",
+          "path": "assets/figma/93ad7.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[103.17%] left-0 max-w-none top-[-1.58%] w-full\" src={imgDivIOcean} />"
+        },
+        {
+          "nodeId": "23:2721",
+          "variable": "imgDivIMan",
+          "path": "assets/figma/99bae.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[100.73%] left-0 max-w-none top-[-0.37%] w-full\" src={imgDivIMan} />"
+        }
+      ]
+    },
+    {
+      "name": "journal",
+      "title": "Journal",
+      "nodeId": "23:2737",
+      "implemented": true,
+      "reference": "references/journal.png",
+      "assets": {
+        "imgDivIHouse": "assets/figma/5c7ec.png",
+        "imgDivIOcean": "assets/figma/93ad7.png",
+        "imgDivIMan": "assets/figma/99bae.png",
+        "imgDivIDoor": "assets/figma/4a7c5.png",
+        "imgDivIForest": "assets/figma/65e27.png",
+        "imgFrame": "assets/figma/ef6b9.svg",
+        "imgFrame1": "assets/figma/ff95f.svg",
+        "imgFrame2": "assets/figma/db413.svg",
+        "imgFrame3": "assets/figma/95736.svg",
+        "imgFrame4": "assets/figma/566a0.svg",
+        "imgFrame5": "assets/figma/e9aa0.svg",
+        "imgFrame6": "assets/figma/4a9db.svg",
+        "imgFrame7": "assets/figma/37bc7.svg"
+      },
+      "slots": [
+        {
+          "nodeId": "23:2740",
+          "variable": "imgFrame",
+          "path": "assets/figma/ef6b9.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame} />"
+        },
+        {
+          "nodeId": "23:2744",
+          "variable": "imgFrame1",
+          "path": "assets/figma/ff95f.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame1} />"
+        },
+        {
+          "nodeId": "23:2748",
+          "variable": "imgFrame2",
+          "path": "assets/figma/db413.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame2} />"
+        },
+        {
+          "nodeId": "23:2752",
+          "variable": "imgFrame3",
+          "path": "assets/figma/95736.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame3} />"
+        },
+        {
+          "nodeId": "23:2759",
+          "variable": "imgFrame4",
+          "path": "assets/figma/566a0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame4} />"
+        },
+        {
+          "nodeId": "23:2765",
+          "variable": "imgFrame5",
+          "path": "assets/figma/e9aa0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame5} />"
+        },
+        {
+          "nodeId": "23:2778",
+          "variable": "imgFrame6",
+          "path": "assets/figma/4a9db.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame6} />"
+        },
+        {
+          "nodeId": "23:2798",
+          "variable": "imgFrame7",
+          "path": "assets/figma/37bc7.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame7} />"
+        },
+        {
+          "nodeId": "23:2803",
+          "variable": "imgDivIHouse",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[127.33%] left-0 max-w-none top-[-13.66%] w-full\" src={imgDivIHouse} />"
+        },
+        {
+          "nodeId": "23:2817",
+          "variable": "imgDivIOcean",
+          "path": "assets/figma/93ad7.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[126.1%] left-0 max-w-none top-[-13.05%] w-full\" src={imgDivIOcean} />"
+        },
+        {
+          "nodeId": "23:2831",
+          "variable": "imgDivIMan",
+          "path": "assets/figma/99bae.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[123.12%] left-0 max-w-none top-[-11.56%] w-full\" src={imgDivIMan} />"
+        },
+        {
+          "nodeId": "23:2845",
+          "variable": "imgDivIDoor",
+          "path": "assets/figma/4a7c5.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[393.85%] left-0 max-w-none top-[-146.93%] w-full\" src={imgDivIDoor} />"
+        },
+        {
+          "nodeId": "23:2859",
+          "variable": "imgDivIForest",
+          "path": "assets/figma/65e27.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[399.45%] left-0 max-w-none top-[-149.73%] w-full\" src={imgDivIForest} />"
+        },
+        {
+          "nodeId": "23:2873",
+          "variable": "imgDivIOcean",
+          "path": "assets/figma/93ad7.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[126.1%] left-0 max-w-none top-[-10.44%] w-full\" src={imgDivIOcean} />"
+        }
+      ]
+    },
+    {
+      "name": "capture",
+      "title": "Capture a dream",
+      "nodeId": "23:2889",
+      "implemented": true,
+      "reference": "references/capture.png",
+      "assets": {
+        "imgDivIHouse": "assets/figma/5c7ec.png",
+        "imgFrame": "assets/figma/ef6b9.svg",
+        "imgFrame1": "assets/figma/ff95f.svg",
+        "imgFrame2": "assets/figma/6a614.svg",
+        "imgFrame3": "assets/figma/95736.svg",
+        "imgFrame4": "assets/figma/566a0.svg",
+        "imgFrame5": "assets/figma/e9aa0.svg",
+        "imgFrame6": "assets/figma/4a9db.svg",
+        "imgFrame7": "assets/figma/e30f3.svg"
+      },
+      "slots": [
+        {
+          "nodeId": "23:2892",
+          "variable": "imgFrame",
+          "path": "assets/figma/ef6b9.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame} />"
+        },
+        {
+          "nodeId": "23:2896",
+          "variable": "imgFrame1",
+          "path": "assets/figma/ff95f.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame1} />"
+        },
+        {
+          "nodeId": "23:2900",
+          "variable": "imgFrame2",
+          "path": "assets/figma/6a614.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame2} />"
+        },
+        {
+          "nodeId": "23:2904",
+          "variable": "imgFrame3",
+          "path": "assets/figma/95736.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame3} />"
+        },
+        {
+          "nodeId": "23:2911",
+          "variable": "imgFrame4",
+          "path": "assets/figma/566a0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame4} />"
+        },
+        {
+          "nodeId": "23:2917",
+          "variable": "imgFrame5",
+          "path": "assets/figma/e9aa0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame5} />"
+        },
+        {
+          "nodeId": "23:2930",
+          "variable": "imgFrame6",
+          "path": "assets/figma/4a9db.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame6} />"
+        },
+        {
+          "nodeId": "23:2941",
+          "variable": "imgFrame7",
+          "path": "assets/figma/e30f3.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame7} />"
+        },
+        {
+          "nodeId": "23:3012",
+          "variable": "imgDivIHouse",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-108.53%] max-w-none top-0 w-[317.05%]\" src={imgDivIHouse} />"
+        }
+      ]
+    },
+    {
+      "name": "detail",
+      "title": "Dream detail",
+      "nodeId": "23:3019",
+      "implemented": true,
+      "reference": "references/detail.png",
+      "assets": {
+        "imgDivHero": "assets/figma/5c7ec.png",
+        "imgDivIForest": "assets/figma/65e27.png",
+        "imgFrame": "assets/figma/ef6b9.svg",
+        "imgFrame1": "assets/figma/ff95f.svg",
+        "imgFrame2": "assets/figma/db413.svg",
+        "imgFrame3": "assets/figma/95736.svg",
+        "imgFrame4": "assets/figma/566a0.svg",
+        "imgFrame5": "assets/figma/e9aa0.svg",
+        "imgFrame6": "assets/figma/4a9db.svg",
+        "imgFrame7": "assets/figma/7c658.svg"
+      },
+      "slots": [
+        {
+          "nodeId": "23:3022",
+          "variable": "imgFrame",
+          "path": "assets/figma/ef6b9.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame} />"
+        },
+        {
+          "nodeId": "23:3026",
+          "variable": "imgFrame1",
+          "path": "assets/figma/ff95f.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame1} />"
+        },
+        {
+          "nodeId": "23:3030",
+          "variable": "imgFrame2",
+          "path": "assets/figma/db413.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame2} />"
+        },
+        {
+          "nodeId": "23:3034",
+          "variable": "imgFrame3",
+          "path": "assets/figma/95736.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame3} />"
+        },
+        {
+          "nodeId": "23:3041",
+          "variable": "imgFrame4",
+          "path": "assets/figma/566a0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame4} />"
+        },
+        {
+          "nodeId": "23:3047",
+          "variable": "imgFrame5",
+          "path": "assets/figma/e9aa0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame5} />"
+        },
+        {
+          "nodeId": "23:3060",
+          "variable": "imgFrame6",
+          "path": "assets/figma/4a9db.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame6} />"
+        },
+        {
+          "nodeId": "23:3068",
+          "variable": "imgDivHero",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-17.71%] max-w-none top-0 w-[135.42%]\" src={imgDivHero} />"
+        },
+        {
+          "nodeId": "23:3092",
+          "variable": "imgDivHero",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-108.53%] max-w-none top-0 w-[317.05%]\" src={imgDivHero} />"
+        },
+        {
+          "nodeId": "23:3096",
+          "variable": "imgDivIForest",
+          "path": "assets/figma/65e27.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-0.53%] max-w-none top-0 w-[101.06%]\" src={imgDivIForest} />"
+        },
+        {
+          "nodeId": "23:3101",
+          "variable": "imgFrame7",
+          "path": "assets/figma/7c658.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame7} />"
+        }
+      ]
+    },
+    {
+      "name": "constellation",
+      "title": "Dream Constellation",
+      "nodeId": "23:3106",
+      "implemented": true,
+      "reference": "references/constellation.png",
+      "assets": {
+        "imgDivIHouse": "assets/figma/5c7ec.png",
+        "imgDivIOcean": "assets/figma/93ad7.png",
+        "imgDivIMan": "assets/figma/99bae.png",
+        "imgDivIForest": "assets/figma/65e27.png",
+        "imgDivIDoor": "assets/figma/4a7c5.png",
+        "imgFrame": "assets/figma/ef6b9.svg",
+        "imgFrame1": "assets/figma/ff95f.svg",
+        "imgFrame2": "assets/figma/6a614.svg",
+        "imgFrame3": "assets/figma/78729.svg",
+        "imgFrame4": "assets/figma/566a0.svg",
+        "imgFrame5": "assets/figma/e9aa0.svg",
+        "imgFrame6": "assets/figma/4a9db.svg",
+        "imgFrame7": "assets/figma/d5413.svg"
+      },
+      "slots": [
+        {
+          "nodeId": "23:3109",
+          "variable": "imgFrame",
+          "path": "assets/figma/ef6b9.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame} />"
+        },
+        {
+          "nodeId": "23:3113",
+          "variable": "imgFrame1",
+          "path": "assets/figma/ff95f.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame1} />"
+        },
+        {
+          "nodeId": "23:3117",
+          "variable": "imgFrame2",
+          "path": "assets/figma/6a614.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame2} />"
+        },
+        {
+          "nodeId": "23:3121",
+          "variable": "imgFrame3",
+          "path": "assets/figma/78729.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame3} />"
+        },
+        {
+          "nodeId": "23:3128",
+          "variable": "imgFrame4",
+          "path": "assets/figma/566a0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame4} />"
+        },
+        {
+          "nodeId": "23:3134",
+          "variable": "imgFrame5",
+          "path": "assets/figma/e9aa0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame5} />"
+        },
+        {
+          "nodeId": "23:3147",
+          "variable": "imgFrame6",
+          "path": "assets/figma/4a9db.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame6} />"
+        },
+        {
+          "nodeId": "23:3155",
+          "variable": "imgFrame7",
+          "path": "assets/figma/d5413.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame7} />"
+        },
+        {
+          "nodeId": "23:3200",
+          "variable": "imgDivIHouse",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[96.15%] left-[-102.43%] max-w-none top-[1.92%] w-[304.86%]\" src={imgDivIHouse} />"
+        },
+        {
+          "nodeId": "23:3208",
+          "variable": "imgDivIOcean",
+          "path": "assets/figma/93ad7.png",
+          "referenceGeometry": "<div className=\"bg-size-[204.89922404289246px_63.99999976158142px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/blue\\/36,#3a4580)] border-solid mb-[-0.5px] relative rounded-[var(--corner-radius\\/34,34px)] shrink-0 size-[68px]\" data-node-id=\"23:3208\" style={{ backgroundImage: `url(\"${imgDivIOcean}\")` }} data-name=\"div.i-ocean\" />"
+        },
+        {
+          "nodeId": "23:3214",
+          "variable": "imgDivIMan",
+          "path": "assets/figma/99bae.png",
+          "referenceGeometry": "<div className=\"bg-size-[209.86046433448792px_63.99999976158142px] bg-top-left border-[length:var(--stroke-weight\\/2,2px)] border-[var(--color\\/blue\\/36,#3a4580)] border-solid mb-[-0.5px] relative rounded-[var(--corner-radius\\/34,34px)] shrink-0 size-[68px]\" data-node-id=\"23:3214\" style={{ backgroundImage: `url(\"${imgDivIMan}\")` }} data-name=\"div.i-man\" />"
+        },
+        {
+          "nodeId": "23:3220",
+          "variable": "imgDivIForest",
+          "path": "assets/figma/65e27.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[94.12%] left-[2.44%] max-w-none top-[2.94%] w-[95.12%]\" src={imgDivIForest} />"
+        },
+        {
+          "nodeId": "23:3226",
+          "variable": "imgDivIDoor",
+          "path": "assets/figma/4a7c5.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[94.12%] left-[1.76%] max-w-none top-[2.94%] w-[96.47%]\" src={imgDivIDoor} />"
+        },
+        {
+          "nodeId": "23:3274",
+          "variable": "imgDivIHouse",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-16.05%] max-w-none top-0 w-[132.11%]\" src={imgDivIHouse} />"
+        },
+        {
+          "nodeId": "23:3297",
+          "variable": "imgDivIDoor",
+          "path": "assets/figma/4a7c5.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-1.25%] max-w-none top-0 w-[102.5%]\" src={imgDivIDoor} />"
+        },
+        {
+          "nodeId": "23:3301",
+          "variable": "imgDivIForest",
+          "path": "assets/figma/65e27.png",
+          "referenceGeometry": "<div className=\"bg-size-[48.51063817739487px_47.99999988079071px] bg-top-left relative rounded-[var(--corner-radius\\/6,6px)] shrink-0 size-[48px]\" data-node-id=\"23:3301\" style={{ backgroundImage: `url(\"${imgDivIForest}\")` }} data-name=\"div.i-forest\" />"
+        },
+        {
+          "nodeId": "23:3305",
+          "variable": "imgDivIHouse",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-108.53%] max-w-none top-0 w-[317.05%]\" src={imgDivIHouse} />"
+        }
+      ]
+    },
+    {
+      "name": "detective",
+      "title": "Dream Detective",
+      "nodeId": "23:3316",
+      "implemented": true,
+      "reference": "references/detective.png",
+      "assets": {
+        "imgDivIHouse": "assets/figma/5c7ec.png",
+        "imgDivIDoor": "assets/figma/4a7c5.png",
+        "imgDivIForest": "assets/figma/65e27.png",
+        "imgFrame": "assets/figma/ef6b9.svg",
+        "imgFrame1": "assets/figma/ff95f.svg",
+        "imgFrame2": "assets/figma/6a614.svg",
+        "imgFrame3": "assets/figma/95736.svg",
+        "imgFrame4": "assets/figma/08569.svg",
+        "imgFrame5": "assets/figma/e9aa0.svg",
+        "imgFrame6": "assets/figma/4a9db.svg",
+        "imgFrame7": "assets/figma/8508c.svg"
+      },
+      "slots": [
+        {
+          "nodeId": "23:3319",
+          "variable": "imgFrame",
+          "path": "assets/figma/ef6b9.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame} />"
+        },
+        {
+          "nodeId": "23:3323",
+          "variable": "imgFrame1",
+          "path": "assets/figma/ff95f.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame1} />"
+        },
+        {
+          "nodeId": "23:3327",
+          "variable": "imgFrame2",
+          "path": "assets/figma/6a614.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame2} />"
+        },
+        {
+          "nodeId": "23:3331",
+          "variable": "imgFrame3",
+          "path": "assets/figma/95736.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame3} />"
+        },
+        {
+          "nodeId": "23:3338",
+          "variable": "imgFrame4",
+          "path": "assets/figma/08569.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame4} />"
+        },
+        {
+          "nodeId": "23:3344",
+          "variable": "imgFrame5",
+          "path": "assets/figma/e9aa0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame5} />"
+        },
+        {
+          "nodeId": "23:3357",
+          "variable": "imgFrame6",
+          "path": "assets/figma/4a9db.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame6} />"
+        },
+        {
+          "nodeId": "23:3390",
+          "variable": "imgFrame7",
+          "path": "assets/figma/8508c.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame7} />"
+        },
+        {
+          "nodeId": "23:3396",
+          "variable": "imgDivIHouse",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-108.53%] max-w-none top-0 w-[317.05%]\" src={imgDivIHouse} />"
+        },
+        {
+          "nodeId": "23:3404",
+          "variable": "imgDivIDoor",
+          "path": "assets/figma/4a7c5.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-1.25%] max-w-none top-0 w-[102.5%]\" src={imgDivIDoor} />"
+        },
+        {
+          "nodeId": "23:3412",
+          "variable": "imgDivIForest",
+          "path": "assets/figma/65e27.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-0.53%] max-w-none top-0 w-[101.06%]\" src={imgDivIForest} />"
+        }
+      ]
+    },
+    {
+      "name": "storyline",
+      "title": "Storyline",
+      "nodeId": "23:3422",
+      "implemented": true,
+      "reference": "references/storyline.png",
+      "assets": {
+        "imgDivIDoor": "assets/figma/4a7c5.png",
+        "imgDivIForest": "assets/figma/65e27.png",
+        "imgDivIHouse": "assets/figma/5c7ec.png",
+        "imgFrame": "assets/figma/ef6b9.svg",
+        "imgFrame1": "assets/figma/ff95f.svg",
+        "imgFrame2": "assets/figma/db413.svg",
+        "imgFrame3": "assets/figma/95736.svg",
+        "imgFrame4": "assets/figma/566a0.svg",
+        "imgFrame5": "assets/figma/e9aa0.svg",
+        "imgFrame6": "assets/figma/4a9db.svg",
+        "imgVector": "assets/figma/61ea1.svg"
+      },
+      "slots": [
+        {
+          "nodeId": "23:3425",
+          "variable": "imgFrame",
+          "path": "assets/figma/ef6b9.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame} />"
+        },
+        {
+          "nodeId": "23:3429",
+          "variable": "imgFrame1",
+          "path": "assets/figma/ff95f.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame1} />"
+        },
+        {
+          "nodeId": "23:3433",
+          "variable": "imgFrame2",
+          "path": "assets/figma/db413.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame2} />"
+        },
+        {
+          "nodeId": "23:3437",
+          "variable": "imgFrame3",
+          "path": "assets/figma/95736.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame3} />"
+        },
+        {
+          "nodeId": "23:3444",
+          "variable": "imgFrame4",
+          "path": "assets/figma/566a0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame4} />"
+        },
+        {
+          "nodeId": "23:3450",
+          "variable": "imgFrame5",
+          "path": "assets/figma/e9aa0.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame5} />"
+        },
+        {
+          "nodeId": "23:3463",
+          "variable": "imgFrame6",
+          "path": "assets/figma/4a9db.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute block inset-0 max-w-none size-full\" src={imgFrame6} />"
+        },
+        {
+          "nodeId": "23:3474",
+          "variable": "imgDivIDoor",
+          "path": "assets/figma/4a7c5.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[236.31%] left-0 max-w-none top-[-68.16%] w-full\" src={imgDivIDoor} />"
+        },
+        {
+          "nodeId": "23:3488",
+          "variable": "imgDivIForest",
+          "path": "assets/figma/65e27.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-[239.67%] left-0 max-w-none top-[-69.84%] w-full\" src={imgDivIForest} />"
+        },
+        {
+          "nodeId": "23:3502",
+          "variable": "imgDivIHouse",
+          "path": "assets/figma/5c7ec.png",
+          "referenceGeometry": "<img alt=\"\" className=\"absolute h-full left-[-15.45%] max-w-none top-0 w-[130.89%]\" src={imgDivIHouse} />"
+        },
+        {
+          "nodeId": "23:3516",
+          "variable": "imgVector",
+          "path": "assets/figma/61ea1.svg",
+          "referenceGeometry": "<img alt=\"\" className=\"block max-w-none size-full\" src={imgVector} />"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/figma/08569.svg",
+      "bytes": 656,
+      "width": "20",
+      "height": "20",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/37bc7.svg",
+      "bytes": 353,
+      "width": "16",
+      "height": "16",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/4a7c5.png",
+      "bytes": 2550,
+      "format": "jpeg"
+    },
+    {
+      "path": "assets/figma/4a9db.svg",
+      "bytes": 660,
+      "width": "16",
+      "height": "16",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/566a0.svg",
+      "bytes": 660,
+      "width": "20",
+      "height": "20",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/5c7ec.png",
+      "bytes": 14345,
+      "format": "jpeg"
+    },
+    {
+      "path": "assets/figma/5d171.svg",
+      "bytes": 813,
+      "width": "34",
+      "height": "34",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/61ea1.svg",
+      "bytes": 355,
+      "width": "1090.05",
+      "height": "70.067",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/65e27.png",
+      "bytes": 3291,
+      "format": "jpeg"
+    },
+    {
+      "path": "assets/figma/6a614.svg",
+      "bytes": 403,
+      "width": "20",
+      "height": "20",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/78729.svg",
+      "bytes": 1269,
+      "width": "20",
+      "height": "20",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/7c658.svg",
+      "bytes": 359,
+      "width": "14",
+      "height": "14",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/812e5.svg",
+      "bytes": 492,
+      "width": "520",
+      "height": "340",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/8508c.svg",
+      "bytes": 374,
+      "width": "16",
+      "height": "16",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/91992.svg",
+      "bytes": 493,
+      "width": "620",
+      "height": "320",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/93ad7.png",
+      "bytes": 13442,
+      "format": "jpeg"
+    },
+    {
+      "path": "assets/figma/95453.svg",
+      "bytes": 396,
+      "width": "20",
+      "height": "20",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/95736.svg",
+      "bytes": 1277,
+      "width": "20",
+      "height": "20",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/99bae.png",
+      "bytes": 9301,
+      "format": "jpeg"
+    },
+    {
+      "path": "assets/figma/c50b4.svg",
+      "bytes": 402,
+      "width": "16",
+      "height": "16",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/d5413.svg",
+      "bytes": 10588,
+      "width": "788",
+      "height": "704",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/db413.svg",
+      "bytes": 401,
+      "width": "20",
+      "height": "20",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/e30f3.svg",
+      "bytes": 765,
+      "width": "40",
+      "height": "40",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/e9aa0.svg",
+      "bytes": 726,
+      "width": "20",
+      "height": "20",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/ef6b9.svg",
+      "bytes": 823,
+      "width": "26",
+      "height": "26",
+      "format": "svg"
+    },
+    {
+      "path": "assets/figma/ff95f.svg",
+      "bytes": 398,
+      "width": "20",
+      "height": "20",
+      "format": "svg"
+    }
+  ],
+  "fontFaces": 7
+}

@@ -1,0 +1,22 @@
+:root {
+  color-scheme: dark;
+  --sidebar: #0b1024;
+  --surface: #141b3a;
+  --inset: #10162d;
+  --border: #2a3360;
+  --border-control: #2f3a74;
+  --border-button: #3a4580;
+  --text: #f6f7fc;
+  --body: #b0b7de;
+  --muted: #9aa3cf;
+  --accent: #ae95f6;
+  --active: #2b2762;
+  --active-border: #6a58c0;
+  --teal: #72dacb;
+  --rose: #f1b0d3;
+  --heading: 'Newsreader', Georgia, serif;
+  --sans: 'Inter', sans-serif;
+  --radius: 12px;
+  --sidebar-width: 230px;
+  --space: 20px;
+}

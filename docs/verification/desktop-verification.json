@@ -1,0 +1,753 @@
+[
+  {
+    "screen": "welcome",
+    "brokenImages": [],
+    "height": 900,
+    "pendingImages": 0,
+    "scrollWidth": 1440,
+    "svgGeometry": [
+      {
+        "natural": [
+          26,
+          26
+        ],
+        "rendered": [
+          26,
+          26
+        ],
+        "src": "assets/figma/ef6b9.svg"
+      },
+      {
+        "natural": [
+          520,
+          340
+        ],
+        "rendered": [
+          520,
+          340
+        ],
+        "src": "assets/figma/812e5.svg"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "screen": "home",
+    "brokenImages": [],
+    "height": 900,
+    "pendingImages": 0,
+    "scrollWidth": 1440,
+    "svgGeometry": [
+      {
+        "natural": [
+          26,
+          26
+        ],
+        "rendered": [
+          26,
+          26
+        ],
+        "src": "assets/figma/ef6b9.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/95453.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/6a614.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/95736.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/566a0.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/e9aa0.svg"
+      },
+      {
+        "natural": [
+          16,
+          16
+        ],
+        "rendered": [
+          16,
+          16
+        ],
+        "src": "assets/figma/4a9db.svg"
+      },
+      {
+        "natural": [
+          34,
+          34
+        ],
+        "rendered": [
+          34,
+          34
+        ],
+        "src": "assets/figma/5d171.svg"
+      },
+      {
+        "natural": [
+          16,
+          16
+        ],
+        "rendered": [
+          16,
+          16
+        ],
+        "src": "assets/figma/c50b4.svg"
+      },
+      {
+        "natural": [
+          620,
+          320
+        ],
+        "rendered": [
+          620,
+          320
+        ],
+        "src": "assets/figma/91992.svg"
+      },
+      {
+        "natural": [
+          14,
+          14
+        ],
+        "rendered": [
+          14,
+          14
+        ],
+        "src": "assets/figma/7c658.svg"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "screen": "journal",
+    "brokenImages": [],
+    "height": 900,
+    "pendingImages": 0,
+    "scrollWidth": 1440,
+    "svgGeometry": [
+      {
+        "natural": [
+          26,
+          26
+        ],
+        "rendered": [
+          26,
+          26
+        ],
+        "src": "assets/figma/ef6b9.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/ff95f.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/db413.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/95736.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/566a0.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/e9aa0.svg"
+      },
+      {
+        "natural": [
+          16,
+          16
+        ],
+        "rendered": [
+          16,
+          16
+        ],
+        "src": "assets/figma/4a9db.svg"
+      },
+      {
+        "natural": [
+          16,
+          16
+        ],
+        "rendered": [
+          16,
+          16
+        ],
+        "src": "assets/figma/37bc7.svg"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "screen": "capture",
+    "brokenImages": [],
+    "height": 900,
+    "pendingImages": 0,
+    "scrollWidth": 1440,
+    "svgGeometry": [
+      {
+        "natural": [
+          26,
+          26
+        ],
+        "rendered": [
+          26,
+          26
+        ],
+        "src": "assets/figma/ef6b9.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/ff95f.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/6a614.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/95736.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/566a0.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/e9aa0.svg"
+      },
+      {
+        "natural": [
+          16,
+          16
+        ],
+        "rendered": [
+          16,
+          16
+        ],
+        "src": "assets/figma/4a9db.svg"
+      },
+      {
+        "natural": [
+          40,
+          40
+        ],
+        "rendered": [
+          40,
+          40
+        ],
+        "src": "assets/figma/e30f3.svg"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "screen": "detail",
+    "brokenImages": [],
+    "height": 900,
+    "pendingImages": 0,
+    "scrollWidth": 1440,
+    "svgGeometry": [
+      {
+        "natural": [
+          26,
+          26
+        ],
+        "rendered": [
+          26,
+          26
+        ],
+        "src": "assets/figma/ef6b9.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/ff95f.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/db413.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/95736.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/566a0.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/e9aa0.svg"
+      },
+      {
+        "natural": [
+          16,
+          16
+        ],
+        "rendered": [
+          16,
+          16
+        ],
+        "src": "assets/figma/4a9db.svg"
+      },
+      {
+        "natural": [
+          14,
+          14
+        ],
+        "rendered": [
+          14,
+          14
+        ],
+        "src": "assets/figma/7c658.svg"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "screen": "constellation",
+    "brokenImages": [],
+    "height": 900,
+    "pendingImages": 0,
+    "scrollWidth": 1440,
+    "svgGeometry": [
+      {
+        "natural": [
+          26,
+          26
+        ],
+        "rendered": [
+          26,
+          26
+        ],
+        "src": "assets/figma/ef6b9.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/ff95f.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/6a614.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/78729.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/566a0.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/e9aa0.svg"
+      },
+      {
+        "natural": [
+          16,
+          16
+        ],
+        "rendered": [
+          16,
+          16
+        ],
+        "src": "assets/figma/4a9db.svg"
+      },
+      {
+        "natural": [
+          788,
+          704
+        ],
+        "rendered": [
+          784,
+          700.4263916015625
+        ],
+        "src": "assets/figma/d5413.svg"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "screen": "detective",
+    "brokenImages": [],
+    "height": 900,
+    "pendingImages": 0,
+    "scrollWidth": 1440,
+    "svgGeometry": [
+      {
+        "natural": [
+          26,
+          26
+        ],
+        "rendered": [
+          26,
+          26
+        ],
+        "src": "assets/figma/ef6b9.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/ff95f.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/6a614.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/95736.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/08569.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/e9aa0.svg"
+      },
+      {
+        "natural": [
+          16,
+          16
+        ],
+        "rendered": [
+          16,
+          16
+        ],
+        "src": "assets/figma/4a9db.svg"
+      },
+      {
+        "natural": [
+          16,
+          16
+        ],
+        "rendered": [
+          16,
+          16
+        ],
+        "src": "assets/figma/8508c.svg"
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "screen": "storyline",
+    "brokenImages": [],
+    "height": 900,
+    "pendingImages": 0,
+    "scrollWidth": 1440,
+    "svgGeometry": [
+      {
+        "natural": [
+          26,
+          26
+        ],
+        "rendered": [
+          26,
+          26
+        ],
+        "src": "assets/figma/ef6b9.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/ff95f.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/db413.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/95736.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/566a0.svg"
+      },
+      {
+        "natural": [
+          20,
+          20
+        ],
+        "rendered": [
+          20,
+          20
+        ],
+        "src": "assets/figma/e9aa0.svg"
+      },
+      {
+        "natural": [
+          16,
+          16
+        ],
+        "rendered": [
+          16,
+          16
+        ],
+        "src": "assets/figma/4a9db.svg"
+      },
+      {
+        "natural": [
+          1090,
+          70
+        ],
+        "rendered": [
+          1089.918701171875,
+          70.05926513671875
+        ],
+        "src": "assets/figma/61ea1.svg"
+      }
+    ],
+    "width": 1440
+  }
+]

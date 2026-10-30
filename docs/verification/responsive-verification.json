@@ -1,0 +1,242 @@
+[
+  {
+    "screen": "welcome",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "brokenImages": 0,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "screen": "home",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "brokenImages": 0,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "screen": "journal",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "brokenImages": 0,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "screen": "capture",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "brokenImages": 0,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "screen": "detail",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "brokenImages": 0,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "screen": "constellation",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "brokenImages": 0,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "screen": "detective",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "brokenImages": 0,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "screen": "storyline",
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "brokenImages": 0,
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "screen": "welcome",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "brokenImages": 0,
+    "scrollWidth": 753,
+    "width": 753
+  },
+  {
+    "screen": "home",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "brokenImages": 0,
+    "scrollWidth": 753,
+    "width": 753
+  },
+  {
+    "screen": "journal",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "brokenImages": 0,
+    "scrollWidth": 753,
+    "width": 753
+  },
+  {
+    "screen": "capture",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "brokenImages": 0,
+    "scrollWidth": 753,
+    "width": 753
+  },
+  {
+    "screen": "detail",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "brokenImages": 0,
+    "scrollWidth": 753,
+    "width": 753
+  },
+  {
+    "screen": "constellation",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "brokenImages": 0,
+    "scrollWidth": 753,
+    "width": 753
+  },
+  {
+    "screen": "detective",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "brokenImages": 0,
+    "scrollWidth": 753,
+    "width": 753
+  },
+  {
+    "screen": "storyline",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "brokenImages": 0,
+    "scrollWidth": 753,
+    "width": 753
+  },
+  {
+    "screen": "welcome",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "brokenImages": 0,
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "screen": "home",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "brokenImages": 0,
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "screen": "journal",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "brokenImages": 0,
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "screen": "capture",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "brokenImages": 0,
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "screen": "detail",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "brokenImages": 0,
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "screen": "constellation",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "brokenImages": 0,
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "screen": "detective",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "brokenImages": 0,
+    "scrollWidth": 375,
+    "width": 375
+  },
+  {
+    "screen": "storyline",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "brokenImages": 0,
+    "scrollWidth": 375,
+    "width": 375
+  }
+]
