@@ -249,7 +249,7 @@ listen(()=>{clearTimeout(draftTimer);if(draft)persistDraft();stopRecording();ren
 window.addEventListener('pagehide',()=>{if(draft)persistDraft();stopRecording();});
 async function boot(){
   try{
-    const response=await fetch('/config.json');if(!response.ok)throw new Error('Frontend configuration is unavailable. Start scripts/serve_frontend.py.');
+    const response=await fetch('/config.json');if(!response.ok)throw new Error('Frontend configuration is unavailable. On Vercel, set the Supabase environment variables and redeploy. Locally, start scripts/serve_frontend.py.');
     config=await response.json();auth=createAuth(config);api=createRepository(auth,fetch,config.apiBase);
     await auth.callback();await render();
   }catch(error){app.innerHTML=view.welcome();info('Unable to start',error.message);}

@@ -1,6 +1,24 @@
 # DreamThread frontend
 
-DreamThread's HTML/CSS/JavaScript frontend connected to the FastAPI backend, Supabase Auth, and backend workers. No npm installation or build is required.
+DreamThread's HTML/CSS/JavaScript frontend connected to the FastAPI backend, Supabase Auth, and backend workers. No npm installation is required. Local serving uses Python; Vercel uses a dependency-free Node build.
+
+## Deploy on Vercel
+
+Import this repository and select its default branch, `codex/dreamthread-frontend`. Set Framework Preset to **Other** and Root Directory to the repository root (leave it blank). The committed `vercel.json` supplies the build command and `dist` output directory; remove dashboard overrides from earlier attempts.
+
+Before deploying, add these variables to the Vercel project's Production and Preview environments:
+
+| Variable | Value |
+| --- | --- |
+| `SUPABASE_URL` | Your backend's Supabase project URL, `https://YOUR-PROJECT.supabase.co` |
+| `SUPABASE_PUBLISHABLE_KEY` | The same project's publishable key (or legacy anon key) |
+| `VOICE_ENABLED` | `false` until voice is enabled and verified on the backend |
+
+Click Deploy, or Redeploy after changing environment variables. Do not add database URLs, the Supabase secret/service-role key, or model provider keys to this frontend project. The build publishes only the allowlisted public configuration in `dist/config.json`.
+
+The backend API is already configured as `https://dreamthread-api.onrender.com` in `vercel.json`. Vercel forwards `/api/v1/*` to Render on the same browser origin, including Bearer tokens and idempotency headers. No `BACKEND_URL` or `VITE_*` variables are needed. The Python server is not used on Vercel. Keep the Render API and worker running.
+
+In Supabase, set Site URL to your Vercel production URL. Add `https://YOUR-APP.vercel.app/` to redirect URLs if using Google OAuth. Turn Confirm email OFF as described below for immediate email/password signup.
 
 ## Run beside the backend
 
@@ -36,7 +54,7 @@ For a hosted backend:
 python scripts/serve_frontend.py --backend-url https://YOUR-API-HOST --host 0.0.0.0
 ```
 
-Set `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`, and optional `API_PREFIX` / `VOICE_ENABLED` in the frontend server environment. `BACKEND_URL` and `PORT` are supported. Serve this Python process rather than deploying the HTML alone: it supplies configuration and proxies API calls. The proxy removes the need for browser CORS changes.
+For Python hosting, set `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`, and optional `API_PREFIX` / `VOICE_ENABLED` in the frontend server environment. `BACKEND_URL` and `PORT` are supported. This Python process supplies configuration and proxies API calls. For Vercel hosting, use the static build and Vercel routing described above instead.
 
 ## Connected features
 
