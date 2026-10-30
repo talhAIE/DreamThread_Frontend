@@ -1,4 +1,4 @@
-const supported = new Set(['welcome','home','journal','dream','capture','constellation','detective','storyline']);
+const supported = new Set(['welcome','home','journal','dream','capture','edit','constellation','motif','detective','storyline','storylines','memory','insights','settings']);
 export function getRoute() {
   const [path, search = ''] = location.hash.slice(1).split('?');
   const [raw, id] = path.replace(/^\//,'').split('/');

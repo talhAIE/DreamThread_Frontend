@@ -15,11 +15,11 @@ export function shell(active, title, subtitle, content, { query = '', mainClass 
   const nav = [['home','Home','ff95f','95453'],['journal','Journal','6a614','db413'],['constellation','Constellation','95736','78729'],['detective','Dream Detective','566a0','08569']];
   return `<div class="app-frame">
     <aside class="sidebar" aria-label="Main navigation">${brand()}<nav>${nav.map(([route,label,normal,selected]) => `<a href="#/${route}" class="nav-link ${active===route?'active':''}" ${active===route?'aria-current="page"':''} title="${label}">${icon(active===route?selected:normal)}<span>${label}</span></a>`).join('')}</nav>
-      <button class="nav-link settings-link" data-action="settings" title="Settings">${icon('e9aa0')}<span>Settings</span></button>
+      <a class="nav-link" href="#/insights">Insights</a><a class="nav-link" href="#/memory">Personal memory</a><a class="nav-link settings-link" href="#/settings" title="Settings">${icon('e9aa0')}<span>Settings</span></a>
     </aside>
     <main class="main ${mainClass}" id="main-content">
       <header class="topbar"><div><div class="page-title"><button class="mobile-menu" data-action="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button><h1 tabindex="-1">${escapeHTML(title)}</h1></div>${subtitle ? `<p class="subtitle">${escapeHTML(subtitle)}</p>`:''}</div>
-        <div class="top-actions"><form class="search" role="search" id="search-form">${icon('4a9db')}<label class="sr-only" for="global-search">Search dreams, symbols, themes</label><input id="global-search" name="query" type="search" placeholder="Search dreams, symbols, themes…" value="${escapeHTML(query)}" autocomplete="off"></form><button class="avatar" data-action="profile" aria-label="Sarah — local demo profile" title="Local demo profile">S</button></div>
+        <div class="top-actions"><form class="search" role="search" id="search-form">${icon('4a9db')}<label class="sr-only" for="global-search">Search dreams</label><input id="global-search" name="query" type="search" placeholder="Search dreams…" value="${escapeHTML(query)}" autocomplete="off"></form><a class="avatar" href="#/settings" aria-label="Account settings" title="Account settings">D</a></div>
       </header>${content}
     </main></div>`;
 }

@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { repository } from '../frontend/js/data/repository.js';
+import { createLocalRepository } from '../frontend/js/data/local-repository.js';
+const repository=createLocalRepository(); // Legacy demo adapter regression coverage.
 import { motifs, chapters } from '../frontend/js/data/fixtures.js';
 
 test('reference journal has six entries; source-only entry is accessible by citation', async () => {
